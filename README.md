@@ -27,3 +27,7 @@ This will run the test on chromium for more options please refer to [this link](
 ## Guide
 
 To run Cypress locally please make sure that you have the browser installed on your machine as of now Cypress support the following [browsers](https://docs.cypress.io/guides/guides/launching-browsers#Browser-versions-supported)
+
+## Issues
+
+Due to the issues with CORS on Firefox that can not be disabled for testing using Cypress running the test cases on Cypress would result the test cases to fail [Please Refer to this issue on bugzilla for reference](https://bugzilla.mozilla.org/show_bug.cgi?id=1039678).
